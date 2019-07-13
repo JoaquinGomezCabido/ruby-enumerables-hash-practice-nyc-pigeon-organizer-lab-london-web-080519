@@ -13,6 +13,7 @@ def nyc_pigeon_organizer(data)
         elements.values.each do |a|
           if object[item].includes?(elements.a)
             object[item][element].push(elements.a)
+          end
         end
       end
     end
