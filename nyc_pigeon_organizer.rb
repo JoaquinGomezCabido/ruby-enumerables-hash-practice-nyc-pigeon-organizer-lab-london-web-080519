@@ -24,5 +24,6 @@ def nyc_pigeon_organizer(data)
           object[item][:lives].push(element)
         end
       end
-      object
+    end
+    object
 end
