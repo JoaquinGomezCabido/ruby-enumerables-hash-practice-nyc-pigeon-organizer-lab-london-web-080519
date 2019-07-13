@@ -9,22 +9,13 @@ def nyc_pigeon_organizer(data)
     end
 
     object.keys.each do |item|
-      data[:color].keys.each do |element|
-        if data[:color][element].include?(object[item])
-          object[item][:color].push(element)
-        end
-      end
-      data[:gender].keys.each do |element|
-        if data[:gender][element].include?(object[item])
-          object[item][:gender].push(element)
-        end
-      end
-      data[:lives].keys.each do |element|
-        if data[:lives][element].include?(object[item])
-          object[item][:lives].push(element)
+      data.keys.each do |element|
+        elements.values.each do |a|
+          if object[item].includes?(elements.a)
+            object[item][element].push(elements.a)
         end
       end
     end
-    
+
     object
 end
